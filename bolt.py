@@ -1,2 +1,3 @@
 class Bolt:
     pass
+

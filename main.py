@@ -1,4 +1,6 @@
-import pandas as pd
+from section import ISection
 
-file = pd.read_csv("HEA.txt", delimiter="\t")
-print(file[file["Profile"] == 240])
+
+s = ISection("IPE240")
+print(s.profile)
+print(s.web_thickness)
